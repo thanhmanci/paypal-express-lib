@@ -1,0 +1,43 @@
+= paypal-express
+
+Handle PayPal Express Checkout.
+Both Instance Payment and Recurring Payment are supported.
+Express Checkout for Digital Goods is also supported.
+
+{<img src="https://travis-ci.org/ianfleeton/paypal-express.svg" />}[https://travis-ci.org/ianfleeton/paypal-express]
+
+
+== Why this fork?
+
+The original gem is not maintained and has broken compatibility with current PayPal APIs.
+You can use this fork which is actively maintained to ensure it is working properly.
+
+== Installation
+
+Add to your Gemfile
+  gem 'ianfleeton-paypal-express', github: 'ianfleeton/paypal-express', require: 'paypal/express'
+Or
+  gem 'ianfleeton-paypal-express', require: 'paypal/express'
+
+== Usage
+
+See Wiki on Github
+https://github.com/ianfleeton/paypal-express/wiki
+
+Play with Sample Rails App
+https://github.com/ianfleeton/paypal-express-sample
+https://paypal-express-sample.heroku.com
+
+== Note on Patches/Pull Requests
+
+* Fork the project.
+* Make your feature addition or bug fix.
+* Add tests for it. This is important so I don't break it in a
+  future version unintentionally.
+* Commit, do not mess with rakefile, version, or history.
+  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
+* Send me a pull request. Bonus points for topic branches.
+
+== Copyright
+
+Copyright © 2011 Ian Fleeton, nov matake. See LICENSE for details.
